@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "signal-backtest"
+version = "0.1.0"
+description = ""
+authors = ["Ivan <ivanchanghsienlee@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+vectorbt = "^0.26.2"
+yfinance = "^0.2.49"
+kaleido = "^0.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[ruff]
+max_line_length = 100
