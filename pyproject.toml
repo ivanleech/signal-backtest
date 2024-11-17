@@ -9,7 +9,6 @@ readme = "README.md"
 python = "^3.10"
 vectorbt = "^0.26.2"
 yfinance = "^0.2.49"
-kaleido = "^0.4.1"
 
 
 [build-system]
